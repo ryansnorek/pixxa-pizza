@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  color: #4f4f4f;
+  /* border: 1px solid grey;  */
+  margin: 0 auto;
+  font-family: 'VT323', monospace;
+  letter-spacing: 1.5px;
+}
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 3%;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 35%;
+}
+a {
+  text-decoration: none;
+  font-weight: bold;
+
+}
+body {
+  text-align: center;
+}
+
+/* HOME */
+h1 {
+  margin: 5%;
+}
+h2 {
+  margin-bottom: 10%;
+}
+.home img {
+  width: 318px;
+}
+.home-pizza {
+  display: flex;
+  justify-content: center;
+  width: 350px;
+}
+.logo {
+  font-size: 2rem;
+  color: rgb(165, 13, 13);
+}
+.logo:hover {
+  color: black;
+}
+.pizza-button {
+  background-color: rgb(165, 13, 13);
+  padding: 3% 6%;
+  color: white;
+  font-weight: bold;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+/* FORM */
+.pizza-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25%;
+}
+.pizza-form input {
+  font-size: 2rem;
+}
+.pizza-form img {
+  width: 318px;
+}
+#size-dropdown {
+  font-size: 1.5rem;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+.subheader,
+.subheader h4,
+.subheader p {
+  background-color: rgb(165, 13, 13);;
+  color: white;
+  margin: 0;
+  padding: 1% 0;
+}
+.subheader h4,
+.subheader p {
+  padding-left: 2%;
+}
+.subheader p {
+  font-size: 0.6rem;
+}
+.subheader {
+  margin-top: 3%;
+  box-shadow: 1px 1px 2px  #4f4f4f;
+}
+input[type='radio'],
+input[type='checkbox'] {
+  height: 20px;
+  width: 20px;
+
+}
+label {
+  display: flex;
+}
+.sauce {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+.sauce-left,
+.sauce-right {
+  margin: 1%;
+  display: flex;
+  
+}
+.toppings {
+  display: flex;
+}
+.toppings-left,
+.toppings-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 2%;
+ 
+}
+input {
+  text-align: center;
+}
+#special-text {
+  width: 98%;
+  height: 50px;
+}
+.order {
+  margin: 5%;
+  text-align: center;
+}
+#order-button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(165, 13, 13);;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 6%;
+  cursor: pointer;
+}
+/* HELP PAGE */
+.help {
+  background-color: rgb(165, 13, 13);;
+  padding: 3%;
+  color: white;
+
+}
+@media (max-width: 414px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav {
+    width: 66%;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    margin-top: 3%;
+  }
+  .home h2 {
+    margin-top: 12%;
+  }
+  .home-pizza img {
+    width: 275px;
+  }
+  .ordered,
+  .ordered img,
+  .pizza-form {
+    width: 350px;
+  }
+  .subheader h4 {
+    font-size: 1.5rem;
+  }
+  .toppings {
+    display: block;
+  }
+  label {
+    font-size: 1.5rem;
+  }
+  form {
+    width: 350px;
+  }
+}
+
