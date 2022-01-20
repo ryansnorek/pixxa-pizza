@@ -2,7 +2,7 @@
 
 **Instant delivery pizza app!**
 
-**Website URL: https://pixxa-pizza.vercel.app/**
+**website URL: https://pixxa-pizza.vercel.app/**
 
 React | Cypress
 
