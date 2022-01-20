@@ -7,7 +7,7 @@
 React | Cypress
 
 ### Introduction
-A simple app that let's you order a pizza and instantly loaded into your oven.
+A simple app that let's you order a pizza which is instantly loaded into your oven.
 
 ### Engineering Notes
 - [ ] Cypress for testing
